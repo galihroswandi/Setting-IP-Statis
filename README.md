@@ -7,6 +7,11 @@ Check the IP address used
   ip a
 ```
 
+For check IP routes and gateway use command
+```bash
+  ip route show
+```
+
 Create configuration on cat /etc/netplan/01-network-manager-all.yaml and paste code here
 
 ```bash
